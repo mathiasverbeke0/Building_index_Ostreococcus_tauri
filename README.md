@@ -6,10 +6,10 @@ Ostreococcus tauri is a small eukaryotic organism with a relatively small genome
 * Files: Ostreococcus tauri genome (.fna) and general transfer format (.gtf)
 * Software: Hisat2
 
-# Obtaining the Genome and Transcriptome Sequences
+## Obtaining the Genome and Transcriptome Sequences
 Run the following commands to download the genomic fasta file and the GTF file.
 
-# Building the Genome Index
+## Building the Genome Index
 1. Run the following command to download the genomic fasta file.
 
 ```bash     
@@ -29,7 +29,7 @@ mkdir GenomeIndex
 hisat2-build GCF_000214015.3_version_140606_genomic.fna GenomeIndex/genome -p 4
 ```
 
-# Building the Transcriptome Index
+## Building the Transcriptome Index
 1. Run the following command to download the general transfer file. 
 
 ```bash     
@@ -56,7 +56,7 @@ hisat2_extract_exons.py GCF_000214015.3_version_140606_genomic.gtf > Transcripto
 hisat2-build --ss TranscriptomeIndex/SpliceSites.ss --exon TranscriptomeIndex/Exons.exon GCF_000214015.3_version_140606_genomic.fna TranscriptomeIndex/transcriptome -p 4 
 ```
 
-# Testing the Genome and Transcriptome Index
+## Testing the Genome and Transcriptome Index
 1. Run the following command to download a few spots from a sample record that is linked to Ostreococcus tauri.
 ```bash     
 fastq-dump --gzip --split-3 -X 1000 SRR7121135 
