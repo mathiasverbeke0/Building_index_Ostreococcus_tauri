@@ -6,9 +6,6 @@ Ostreococcus tauri is a small eukaryotic organism with a relatively small genome
 * Files: Ostreococcus tauri genome (.fna) and general transfer format (.gtf)
 * Software: Hisat2
 
-## Obtaining the Genome and Transcriptome Sequences
-Run the following commands to download the genomic fasta file and the GTF file.
-
 ## Building the Genome Index
 1. Run the following command to download the genomic fasta file.
 
