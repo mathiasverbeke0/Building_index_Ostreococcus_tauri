@@ -1,4 +1,4 @@
-# Building Genome and Transcriptome Indexes for Ostreococcus tauri
+# Building Genome and Transcriptome Indexes for Ostreococcus tauri with HISAT2
 ## Introduction
 Ostreococcus tauri is a small eukaryotic organism with a relatively small genome, making it suitable for quick construction of genome and transcriptome indexes. In this README, we will outline the steps to build these indexes.
 
