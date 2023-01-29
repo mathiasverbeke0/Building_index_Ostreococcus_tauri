@@ -21,7 +21,7 @@ gunzip GCF_000214015.3_version_140606_genomic.fna.gz
 ```bash     
 mkdir GenomeIndex
 ```
-4. Run the following command to build the genome index (4 threads used).
+4. Run the following command to build the genome index (4 threads used). Take a look in the GenomeIndex folder after executing this command.
 ```bash     
 hisat2-build GCF_000214015.3_version_140606_genomic.fna GenomeIndex/genome -p 4
 ```
