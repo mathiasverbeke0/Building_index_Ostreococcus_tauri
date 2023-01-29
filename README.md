@@ -3,7 +3,7 @@
 Ostreococcus tauri is a small eukaryotic organism with a relatively small genome, making it suitable for quick construction of genome and transcriptome indexes. In this README, we will outline the steps to build these indexes.
 
 ## Prerequisites
-* Files: Ostreococcus tauri genome (.fna) and general transfer format (.gtf)
+* Files: Ostreococcus tauri genome file (.fna) and general transfer format file (.gtf)
 * Software: Hisat2
 
 ## Building the Genome Index
